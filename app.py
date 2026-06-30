@@ -8,7 +8,7 @@ import cv2
 # ==========================
 # LOAD MODEL
 # ==========================
-MODEL_PATH = "Model\emotion_cnn.h5"
+MODEL_PATH = "Model/emotion_cnn.h5"
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # ==========================
